@@ -23,9 +23,9 @@ use OmniAuth::Builder do
 end
 ```
 
-You will obviously have to put in your consumer key and secret (Dropbox refers to them as App Key and App Secret).
+You will have to put in your consumer key and secret (Dropbox refers to them as App Key and App Secret).
 
-For additional information about OmniAuth, refer to the [wiki](https://github.com/intridea/omniauth/wiki).
+For additional information, refer to the [OmniAuth wiki](https://github.com/intridea/omniauth/wiki).
 
 Note on Patches/Pull Requests
 -----------------------------
@@ -41,4 +41,4 @@ Note on Patches/Pull Requests
 Copyright
 ---------
 
-Copyright (c) 2011 Steve Agalloco. See LICENSE for details.
+Copyright (c) 2011 Steve Agalloco. See [LICENSE](https://github.com/spagalloco/omniauth-dropbox/blob/master/LICENSE.md) for details.
