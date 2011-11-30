@@ -8,7 +8,7 @@ It supports version 1 of the Dropbox API which uses OAuth 1.0a.
 Usage
 -----
 
-Add the strategy to your `Gemfile` alongside omniauth:
+Add the strategy to your `Gemfile` alongside OmniAuth:
 
 ```ruby
 gem 'omniauth'
