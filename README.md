@@ -18,6 +18,14 @@ gem 'omniauth-dropbox'
 Then integrate the strategy into your middleware:
 
 ```ruby
+use OmniAuth::Builder do
+  provider :dropbox, ENV['DROPBOX_KEY'], ENV['DROPBOX_SECRET']
+end
+```
+
+In Rails, you'll want to add to the middleware stack:
+
+```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
   provider :dropbox, ENV['DROPBOX_KEY'], ENV['DROPBOX_SECRET']
 end
