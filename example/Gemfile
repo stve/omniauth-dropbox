@@ -1,4 +1,5 @@
 source :rubygems
 
 gem 'sinatra'
+gem 'multi_json'
 gem 'omniauth-dropbox', :path => '../'
