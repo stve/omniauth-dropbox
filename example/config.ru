@@ -1,6 +1,7 @@
 require 'bundler/setup'
 require 'sinatra/base'
 require 'omniauth-dropbox'
+require 'multi_json'
 
 class App < Sinatra::Base
   get '/' do
